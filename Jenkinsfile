@@ -5,7 +5,7 @@ pipeline {
         AWS_DEFAULT_REGION="us-east-1" 
 	CLUSTER_NAME="default"
 	SERVICE_NAME="nodejs-container-serviceUpdate"
-	TASK_DEFINITION_NAME=" first-run-task-definition:1"
+	TASK_DEFINITION_NAME="first-run-task-definition:1"
 	DESIRED_COUNT="1"
         IMAGE_REPO_NAME="406316656889.dkr.ecr.us-east-1.amazonaws.com/testrepo"
         IMAGE_TAG="${env.BUILD_ID}"
